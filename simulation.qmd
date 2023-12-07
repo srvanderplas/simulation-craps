@@ -1,0 +1,54 @@
+---
+title: "Craps Simulation"
+format: html
+---
+
+Run 10,000 iterations of your simulation (make sure to set a seed before you start so that the results don't change). 
+Use these results to answer the questions in the remainder of this document.
+
+# Win Probability
+
+
+Create a line chart showing the cumulative probability of winning at craps with iteration # on the x-axis and cumulative probability on the y-axis.
+Add a dashed horizontal red line showing the [theoretical probability of winning](https://mathworld.wolfram.com/Craps.html)
+
+```{r}
+
+```
+
+# Number of Rolls in a Game
+
+It is theoretically possible (I think?) to calculate the probability distribution of the number of rolls in craps using a recurrence relation, but it is not a fun calculation. 
+Use your simulation results to draw a histogram of the number of rolls in each game (regardless of game outcome).
+
+
+```{r}
+
+```
+
+Draw a second plot that facets the histogram by game outcome.
+
+```{r}
+
+```
+
+
+Write 2-3 sentences describing your conclusions from the two plots. 
+<!-- It may help to also view the plots on a log scale so that you can see the improbable (but possible) values more clearly -->
+
+
+# Conditioning on the First Roll
+
+For each possible value of the initial roll (`point`), calculate the win probability.
+Create a stacked bar chart showing the probability of winning the game conditional on the first roll value.
+
+```{r}
+
+```
+
+Can you create a summary table and add in the values that end in a win or loss on the first roll?
+
+```{r}
+
+```
+

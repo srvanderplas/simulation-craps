@@ -1,0 +1,76 @@
+---
+title: "Craps Simulation"
+format: html
+---
+
+
+In this document, you should create, code, and demonstrate each function you described in [`pseudocode.qmd`](pseudocode.qmd).
+File your functions under the appropriate header. 
+Each function should have its own code chunk, which is properly set up with the appropriate programming language indicated.
+I have provided skeleton code chunks for your required functions using R syntax, but you are free to use Python or any other language covered in class. 
+Please delete or fill in my chunks with your own code.
+
+Make sure this document compiles before you submit your answers.
+
+# Helper Functions
+
+## `roll_dice`
+
+```{r}
+roll_dice <- function() {
+  # Input: None
+  # Output: an integer from 1:12
+  # Description: Generate 2 random integers from 1 to 6 and sum them
+  
+  sample(1:6, 2, replace = T) %>% sum()
+}
+```
+
+```{r}
+roll_dice()
+```
+
+
+
+# Main Functions
+
+## `simulate_craps_game`
+```{r}
+simulate_craps_game <- function() {
+  # Input: 
+  # Output: 
+  # Description:
+}
+```
+
+```{r}
+simulate_craps_game()
+```
+
+## `summarize_craps_game`
+```{r}
+summarize_craps_game <- function() {
+  # Input: 
+  # Output: 
+  # Description:
+}
+```
+
+```{r}
+simulate_craps_game() %>% summarize_craps_game()
+```
+
+## `run_craps_simulation`
+```{r}
+run_craps_simulation <- function(N) {
+  # Input: an integer N which determines the number of games to simulate
+  # Output: 
+  # Description:
+}
+```
+
+```{r}
+result <- run_craps_simulation(N=5) # demonstrate result
+result
+```
+

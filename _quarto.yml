@@ -1,0 +1,15 @@
+title: "Craps Simulation"
+author: "Firstname Lastname"
+
+project:
+  output-dir: _output
+  render:
+    - README.md
+    - pseudocode.qmd
+    - craps-code.qmd
+    - simulation.qmd
+
+
+output: html_document
+
+
